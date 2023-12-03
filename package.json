@@ -1,7 +1,12 @@
 {
-  "name": "sonner",
-  "version": "1.2.4",
-  "description": "A simple toast library with a clean API. ",
+  "name": "remcostoeten",
+  "version": "1.0.0",
+  "homepage": "https://remcostoeten.com/",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remcostoeten/nextjs-toast.git"
+  },
   "exports": {
     "types": "./dist/index.d.ts",
     "import": "./dist/index.mjs",
@@ -15,20 +20,6 @@
     "build": "tsup src/index.tsx",
     "dev": "tsup src/index.tsx --watch"
   },
-  "keywords": [
-    "react",
-    "nextjs",
-    "notifications",
-    "toast",
-    "snackbar",
-    "message"
-  ],
-  "author": "Remco <remcostoeten@hotmail.com>",
-  "homepage": "https://remcostoeten.com/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/remcostoeten/nextjs-toast.git"
-  },
   "devDependencies": {
     "@types/node": "^18.11.13",
     "@types/react": "^18.0.26",
@@ -36,7 +27,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tsup": "^6.4.0",
-    "turbo": "1.6",
     "typescript": "^4.8.4"
   },
   "peerDependencies": {
