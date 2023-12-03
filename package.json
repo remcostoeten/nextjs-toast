@@ -7,11 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/remcostoeten/nextjs-toast.git"
   },
-  "exports": {
-    "types": "./dist/index.d.ts",
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.js"
-  },
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
